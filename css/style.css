@@ -230,7 +230,7 @@ a,a:hover,a:visited{color:#ddd;text-decoration:none;}
 #simp .simp-controls{padding:15px;}
 #simp .simp-controls button{font-size:130%;width:32px;height:32px;background:none;color:#ddd;padding:7px;cursor:pointer;border:0;border-radius:3px;}
 #simp .simp-controls button[disabled]{color:#636469;cursor:initial;}
-#simp .simp-controls button:not([disabled]):hover{background:#4082bc;color:#fff;}
+#simp .simp-controls button:not([disabled]):hover{background:#520d82;;color:#fff;}
 #simp .simp-controls .simp-prev,#simp .simp-controls .simp-next{font-size:100%;}
 #simp .simp-controls .simp-tracker,#simp .simp-controls .simp-volume{flex:1;margin-left:10px;position:relative;}
 #simp .simp-controls .simp-buffer {position:absolute;top:50%;right:0;left:0;height:5px;margin-top:-2.5px;border-radius:100px;}
@@ -258,7 +258,7 @@ a,a:hover,a:visited{color:#ddd;text-decoration:none;}
 #simp ul li:last-child{padding-bottom:13px;}
 #simp ul li:nth-child(odd){background:#1f1f1f;}
 #simp ul li:hover{background:#242f3d;}
-#simp ul li.simp-active{background:#4082bc;color:#fff;}
+#simp ul li.simp-active{background:#3e0b62;color:#fff;border-right: 5px solid #ca9a09;}
 #simp ul li .simp-desc{font-size:90%;opacity:.5;margin-left:5px;}
 /* playlist scrollbar */
 #simp ul{overflow-y:auto;overflow-x:hidden;scrollbar-color:#73797f #2f3841;}
