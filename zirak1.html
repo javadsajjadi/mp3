@@ -42,16 +42,7 @@
      </div>
    
    </div>   
-   <script>
-    $.backstretch([
-      "wallpapers/7.jpg",
-      "./wallpapers/12.jpg",
-      "/wallpapers/13.jpg"    
-      ], {
-      fade: 750,
-      duration: 4000
-   });
-</script>
+  
 <div id="particles-js"></div>
 <script src="js/particles.min.js"></script> 
 <script src="js/index.js"></script> 
@@ -62,4 +53,16 @@
       <script  src="js/script1.js"></script>
       <script  src="js/jquery.backstretch.js"></script>
       <script  src="js/customs2.js"></script>
+     <script>
+            $.backstretch([
+                "wallpaper/12.jpg",
+                "wallpaper/13.jpg",
+                "wallpaper/7.jpg"
+            ], {
+                fade: 750,
+                duration: 4000,
+                preload: 0,
+                start: 2
+            });
+        </script>
 </html>
